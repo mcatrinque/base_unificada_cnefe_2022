@@ -57,7 +57,7 @@ O notebook finaliza consolidando todos os arquivos de endereços das UFs em um �
 
 ## Downloads
 O arquivo contendo os endereços do CNEFE, coletados pelo IBGE no Censo 2022, está disponível em formato compactado no link abaixo:
-- [Endereços BR]([https://pandas.pydata.org/pandas-docs/stable/](https://drive.google.com/file/d/1tBwS3r0OxdZtJZpIb9ybMZnf7k6CSkm8/view?usp=sharing))
+- [Endereços BR](https://drive.google.com/file/d/1tBwS3r0OxdZtJZpIb9ybMZnf7k6CSkm8/view?usp=sharing)
 
 ## Links Úteis
 
