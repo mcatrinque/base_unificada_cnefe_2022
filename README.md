@@ -1,4 +1,4 @@
-# Concatenação dos Dados dos Endereços por UF do CNEFE 2022 em uma Única Base
+# Concatenação dos Endereços por UF do CNEFE 2022 em uma Base Única
 
 ## Introdução
 
