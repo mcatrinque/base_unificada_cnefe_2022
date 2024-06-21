@@ -6,10 +6,9 @@ Este notebook descreve o processo de download, extração e unificação dos arq
 
 ## Objetivos
 
-- **Download dos Arquivos**: Obter os arquivos de endereços das UFs diretamente do site do IBGE.
+- **Extração dos Arquivos**: Obter os arquivos de endereços das UFs diretamente do site do IBGE.
 - **Verificação e Atualização**: Certificar-se de que os arquivos locais estão atualizados em relação aos disponíveis online.
-- **Descompactação**: Extrair os dados dos arquivos ZIP.
-- **Unificação**: Combinar todos os arquivos em um único CSV, consolidando os dados de endereços de todo o Brasil.
+- **Concatenação e Carga dos Arquivos**: Combinar todos os arquivos em um único CSV, consolidando os dados de endereços de todo o Brasil.
 
 ## Requisitos
 
@@ -30,7 +29,7 @@ Antes de iniciar, você precisará ter:
   diretorio_enderecos_uf = input("Insira o diretório de destino dos arquivos a serem baixados: ")
   ```
 
-### Download dos Arquivos
+### Extração dos Arquivos
 
 - **Função `obter_links(url_base)`**: Extrai os links dos arquivos ZIP de endereços da página do IBGE.
 - **Função `verificar_arquivo(url_arquivo, caminho_arquivo)`**: Verifica se o arquivo local existe e está atualizado em relação ao arquivo remoto.
@@ -38,7 +37,7 @@ Antes de iniciar, você precisará ter:
 - **Função `extrair_arquivos(url_base, diretorio)`**: Coordena o processo de download de todos os arquivos ZIP de endereços.
 - **Função `descompactar_arquivos(diretorio)`**: Descompacta todos os arquivos ZIP no diretório especificado, extraindo os CSVs de endereços.
 
-### Unificação dos Dados
+### Concatenação e Carga dos Arquivos
 
 - **Função `criar_base_unificada(diretorio, arquivo_enderecos_br, batch_size)`**: Combina todos os arquivos CSV de endereços em um único arquivo CSV. A leitura é feita em batches para otimizar o uso de memória.
 
