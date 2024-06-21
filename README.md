@@ -36,9 +36,6 @@ Antes de iniciar, você precisará ter:
 - **Função `verificar_arquivo(url_arquivo, caminho_arquivo)`**: Verifica se o arquivo local existe e está atualizado em relação ao arquivo remoto.
 - **Função `baixar_enderecos_uf(url_arquivo, caminho_arquivo)`**: Faz o download de um arquivo específico a partir de uma URL.
 - **Função `extrair_arquivos(url_base, diretorio)`**: Coordena o processo de download de todos os arquivos ZIP de endereços.
-
-### Descompactação dos Arquivos
-
 - **Função `descompactar_arquivos(diretorio)`**: Descompacta todos os arquivos ZIP no diretório especificado, extraindo os CSVs de endereços.
 
 ### Unificação dos Dados
@@ -49,7 +46,7 @@ Antes de iniciar, você precisará ter:
 
 O notebook finaliza consolidando todos os arquivos de endereços das UFs em um único CSV, pronto para análises detalhadas.
 
-## Como Usar o Notebook
+## Instruções de Uso
 
 1. **Clone este repositório** ou baixe o notebook.
 2. **Abra o notebook** com o Jupyter Notebook ou JupyterLab.
@@ -59,14 +56,14 @@ O notebook finaliza consolidando todos os arquivos de endereços das UFs em um �
    - Descompactar os arquivos ZIP.
    - Unificar os dados em um único arquivo CSV.
 
+## Downloads
+O arquivo contendo os endereços do CNEFE, coletados pelo IBGE no Censo 2022, está disponível em formato compactado no link abaixo:
+- [Endereços BR]([https://pandas.pydata.org/pandas-docs/stable/](https://drive.google.com/file/d/1tBwS3r0OxdZtJZpIb9ybMZnf7k6CSkm8/view?usp=sharing))
+
 ## Links Úteis
 
 - [Página de Download do CNEFE 2022 - IBGE](https://www.ibge.gov.br/estatisticas/sociais/populacao/38734-cadastro-nacional-de-enderecos-para-fins-estatisticos.html?=&t=downloads)
 - [Documentação do Pandas](https://pandas.pydata.org/pandas-docs/stable/)
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
 
